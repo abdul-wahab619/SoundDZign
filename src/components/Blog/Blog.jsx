@@ -1,13 +1,12 @@
 import React, { useEffect, useState } from "react";
 import "./Blog.css";
-import { blog1, blog2, blog3, daw } from "../../assets";
 import { client, urlFor } from "../../client";
 
 const Blog = () => {
   const [posts, setPosts] = useState([]);
 
   useEffect(() => {
-    const query = '*[_type == "posts"] ';
+    const query = '*[_type == "posts"][0..2] ';
     client.fetch(query).then((data) => {
       setPosts(data);
     });
