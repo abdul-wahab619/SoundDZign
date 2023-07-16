@@ -12,13 +12,13 @@ const Footer = () => {
               Sound <span className="red">Dzign</span>
             </a>
             <div className="social-icons">
-              <a href="#">
+              <a href="https://www.facebook.com/profile.php?id=100027708877619">
                 <img src={facebookLogo} alt="" />
               </a>
-              <a href="#">
+              <a href="https://www.threads.net/@_mr_abdulwahab">
                 <img src={twitterLogo} alt="" />
               </a>
-              <a href="#">
+              <a href="https://www.instagram.com/_mr_abdulWahab/">
                 <img src={instagramLogo} alt="" />
               </a>
             </div>
